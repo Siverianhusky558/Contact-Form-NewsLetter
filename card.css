@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to right, #061161, #780206);
+	color: #fff;
+	line-height: 1.5;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 10px;
+	overflow: hidden;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	font-size: 2em;
+	text-shadow: 2px 2px 5px orange;
+}
+
+input {
+	font-family: 'Space Mono', monospace;
+	text-align: center;
+	height: 25px;
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:active {
+	transform: scale(0.98);
+}
+
+textarea {
+	font-family: 'Space Mono', monospace;
+	resize: none;
+	border: none;
+	width: 375px;
+	height: 175px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+textarea:active {
+	transform: scale(0.98);
+}
+
+.card-info {
+	transform: translateY(37px);
+	text-shadow: 2px 2px 5px blue;
+}
+
+.container {
+	outline: 2px solid #fff;
+	border: 2px solid #eee;
+	box-shadow: 10px 10px 5px grey;
+	padding: 50px;
+}
+
+.btn {
+	font-family: 'Muli', sans-serif;
+	background-color: purple;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	overflow: hidden;
+	margin: 10px 0;
+	position: relative;
+	box-shadow: 10px 10px 5px grey;
+	cursor: pointer;
+}
